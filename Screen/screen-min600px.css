@@ -1,0 +1,45 @@
+/* Dispostivos Médios (Tablets deitados, 768px para cima) */
+@media only screen and (min-width: 600px) {
+
+    body {
+        background-color: var(--bg);
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn {
+        position: static;
+        margin: 20px auto;
+        width: 140px;
+        height: 40px;
+        border-radius: 20px;
+        color: var(--btnfontcolor);
+        background-color: var(--btnbg);
+        display: block;
+    }
+
+    * {
+        color: var(--fontcolor);
+        font-family: helvetica;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    h1 {
+        font-size: 50px
+    }
+
+    p,
+    span {
+        font-size: 18px
+    }
+
+    span {
+        font-weight: bolder;
+        text-decoration: underline;
+    }
+
+}

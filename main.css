@@ -1,0 +1,36 @@
+:root {
+    --White: #ffffff;
+    --black: #000000;
+}
+
+ul {
+    font-family: helvetica;
+}
+
+li {
+    list-style: circle;
+
+}
+
+.list {
+    list-style: square;
+}
+
+.btn:focus {
+    outline-style: none;
+}
+
+.light-theme {
+    --bg: var(--White);
+    --fontcolor: var(--black);
+    --btnbg: var(--White);
+    --btnFontcolor: var(--White);
+}
+
+.dark-theme {
+    --bg: var(--black);
+    --fontcolor: var(--White);
+    --btnbg: var(--white);
+    --btnFontcolor: var(--black);
+
+}
